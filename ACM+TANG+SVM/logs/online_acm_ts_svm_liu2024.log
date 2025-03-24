@@ -1,0 +1,92 @@
+INFO:__main__:25-03-23 21:39:15 Import dataset
+INFO:__main__:25-03-23 21:39:59    Augmented Dataset
+INFO:__main__:25-03-23 21:40:06    Covariance Calculation
+INFO:__main__:25-03-23 21:41:17 Import dataset
+INFO:__main__:25-03-23 21:42:01    Augmented Dataset
+INFO:__main__:25-03-23 21:42:03    Covariance Calculation
+INFO:__main__:25-03-23 21:42:41 Import dataset
+INFO:__main__:25-03-23 21:43:26    Augmented Dataset
+INFO:__main__:25-03-23 21:43:27    Covariance Calculation
+INFO:__main__:25-03-23 21:43:52 Import dataset
+INFO:__main__:25-03-23 21:44:38    Augmented Dataset
+INFO:__main__:25-03-23 21:44:39    Covariance Calculation
+INFO:__main__:25-03-23 21:44:46    Beginning of SVM Test, subject 1
+INFO:__main__:25-03-23 21:44:56    subject: 1,   trial: 1,    real class: right_hand,   predicted class: right_hand,  val: True,  trainingAcc: 1.0,   actualAcc: 1.0
+INFO:__main__:25-03-23 21:45:07    subject: 1,   trial: 2,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.5
+INFO:__main__:25-03-23 21:45:18    subject: 1,   trial: 3,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.3333333333333333
+INFO:__main__:25-03-23 21:45:29    subject: 1,   trial: 4,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.25
+INFO:__main__:25-03-23 21:45:40    subject: 1,   trial: 5,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.2
+INFO:__main__:25-03-23 21:45:51    subject: 1,   trial: 6,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.16666666666666666
+INFO:__main__:25-03-23 21:46:03    subject: 1,   trial: 7,    real class: right_hand,   predicted class: right_hand,  val: True,  trainingAcc: 1.0,   actualAcc: 0.2857142857142857
+INFO:__main__:25-03-23 21:46:15    subject: 1,   trial: 8,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.25
+INFO:__main__:25-03-23 21:46:27    subject: 1,   trial: 9,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.2222222222222222
+INFO:__main__:25-03-23 21:46:40    subject: 1,   trial: 10,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.2
+INFO:__main__:25-03-23 21:46:52    subject: 1,   trial: 11,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.18181818181818182
+INFO:__main__:25-03-23 21:47:05    subject: 1,   trial: 12,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.16666666666666666
+INFO:__main__:25-03-23 21:47:18    subject: 1,   trial: 13,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.15384615384615385
+INFO:__main__:25-03-23 21:47:31    subject: 1,   trial: 14,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.14285714285714285
+INFO:__main__:25-03-23 21:47:45    subject: 1,   trial: 15,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.13333333333333333
+INFO:__main__:25-03-23 21:47:59    subject: 1,   trial: 16,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.125
+INFO:__main__:25-03-23 21:48:13    subject: 1,   trial: 17,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.11764705882352941
+INFO:__main__:25-03-23 21:48:27    subject: 1,   trial: 18,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.1111111111111111
+INFO:__main__:25-03-23 21:48:42    subject: 1,   trial: 19,    real class: right_hand,   predicted class: right_hand,  val: True,  trainingAcc: 1.0,   actualAcc: 0.15789473684210525
+INFO:__main__:25-03-23 21:48:57    subject: 1,   trial: 20,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.15
+INFO:__main__:25-03-23 21:48:57    Beginning of SVM Test, subject 2
+INFO:__main__:25-03-23 21:49:05    subject: 2,   trial: 1,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:49:13    subject: 2,   trial: 2,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:49:22    subject: 2,   trial: 3,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:49:30    subject: 2,   trial: 4,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:49:39    subject: 2,   trial: 5,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:49:48    subject: 2,   trial: 6,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:49:58    subject: 2,   trial: 7,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:50:07    subject: 2,   trial: 8,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:50:17    subject: 2,   trial: 9,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:50:27    subject: 2,   trial: 10,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:50:37    subject: 2,   trial: 11,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:50:47    subject: 2,   trial: 12,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:50:57    subject: 2,   trial: 13,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:51:08    subject: 2,   trial: 14,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:51:18    subject: 2,   trial: 15,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:51:29    subject: 2,   trial: 16,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:51:40    subject: 2,   trial: 17,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:51:51    subject: 2,   trial: 18,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:52:03    subject: 2,   trial: 19,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:52:15    subject: 2,   trial: 20,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:52:15    Beginning of SVM Test, subject 3
+INFO:__main__:25-03-23 21:52:26    subject: 3,   trial: 1,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:52:37    subject: 3,   trial: 2,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:52:49    subject: 3,   trial: 3,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:53:02    subject: 3,   trial: 4,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:53:15    subject: 3,   trial: 5,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:53:28    subject: 3,   trial: 6,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:53:42    subject: 3,   trial: 7,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:53:56    subject: 3,   trial: 8,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:54:11    subject: 3,   trial: 9,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:54:27    subject: 3,   trial: 10,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:54:43    subject: 3,   trial: 11,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:54:59    subject: 3,   trial: 12,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:55:16    subject: 3,   trial: 13,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:55:33    subject: 3,   trial: 14,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:55:51    subject: 3,   trial: 15,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:56:09    subject: 3,   trial: 16,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:56:28    subject: 3,   trial: 17,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:56:47    subject: 3,   trial: 18,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:57:06    subject: 3,   trial: 19,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:57:27    subject: 3,   trial: 20,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:57:27    Beginning of SVM Test, subject 4
+INFO:__main__:25-03-23 21:57:35    subject: 4,   trial: 1,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:57:43    subject: 4,   trial: 2,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:57:51    subject: 4,   trial: 3,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:58:00    subject: 4,   trial: 4,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:58:08    subject: 4,   trial: 5,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:58:17    subject: 4,   trial: 6,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:58:27    subject: 4,   trial: 7,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:58:36    subject: 4,   trial: 8,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:58:46    subject: 4,   trial: 9,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:58:56    subject: 4,   trial: 10,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:59:05    subject: 4,   trial: 11,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:59:16    subject: 4,   trial: 12,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0
+INFO:__main__:25-03-23 21:59:26    subject: 4,   trial: 13,    real class: right_hand,   predicted class: right_hand,  val: True,  trainingAcc: 1.0,   actualAcc: 0.07692307692307693
+INFO:__main__:25-03-23 21:59:37    subject: 4,   trial: 14,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.07142857142857142
+INFO:__main__:25-03-23 21:59:49    subject: 4,   trial: 15,    real class: right_hand,   predicted class: left_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.06666666666666667
+INFO:__main__:25-03-23 22:00:00    subject: 4,   trial: 16,    real class: left_hand,   predicted class: right_hand,  val: False,  trainingAcc: 1.0,   actualAcc: 0.0625
