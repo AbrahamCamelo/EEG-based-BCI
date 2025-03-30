@@ -42,7 +42,8 @@ cov_estimator = Covariances("cov")
 X_cov = cov_estimator.fit_transform(X_augmented)
 
 
-for subject in dataset.subject_list:
+for subject in dataset.subject_list[1:]:
+    print(subject)
     
     subject_index = metadata['subject'] == subject
     train_index = metadata[subject_index]['session'] == '0train'

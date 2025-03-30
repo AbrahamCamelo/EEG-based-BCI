@@ -26,7 +26,7 @@ paradigm = MotorImagery(events=events, n_classes=len(events), fmin=fmin, fmax=fm
 
 X, y, metadata = paradigm.get_data(dataset)
 
-order, lag = 8, 9
+order, lag = 4, 5
 C_value, kernel_type = 1.0, "rbf"
 
 time_now = datetime.now().strftime('%y-%m-%d %H:%M:%S')
