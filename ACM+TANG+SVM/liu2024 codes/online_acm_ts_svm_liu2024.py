@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(filename='logs/online_acm_ts_svm_liu2024.log', level = logging.DEBUG)
 
 acm_pipeline = Pipeline(
-    steps = [('augmenteddataset',AugmentedDataset(order=8,lag=9)),#8,9 - 3,2 
+    steps = [('augmenteddataset',AugmentedDataset(order=8,lag=9)),
     ('covariances',Covariances(estimator='cov')),
     ('tangentspace',TangentSpace(metric='riemann')),
     ('svc',SVC(C=1.0, kernel='rbf'))]
@@ -39,7 +39,7 @@ X, y, metadata = paradigm.get_data(dataset)
 
 subjects = metadata.subject.unique()
 
-for subject in subjects:
+for subject in subjects[15:]:
     print(subject)
 
     s_index = metadata.subject == subject

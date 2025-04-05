@@ -1,0 +1,11 @@
+
+INFO:__main__:25-03-31 12:19:31 Import dataset
+INFO:__main__:25-03-31 12:20:18    subject: 1,  trainingAcc: 1.0,   testingAcc: 0.8402777777777778
+INFO:__main__:25-03-31 12:20:48    subject: 2,  trainingAcc: 1.0,   testingAcc: 0.6145833333333334
+INFO:__main__:25-03-31 12:21:19    subject: 3,  trainingAcc: 1.0,   testingAcc: 0.7847222222222222
+INFO:__main__:25-03-31 12:21:49    subject: 4,  trainingAcc: 1.0,   testingAcc: 0.6527777777777778
+INFO:__main__:25-03-31 12:22:18    subject: 5,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-03-31 12:22:48    subject: 6,  trainingAcc: 1.0,   testingAcc: 0.5277777777777778
+INFO:__main__:25-03-31 12:23:19    subject: 7,  trainingAcc: 1.0,   testingAcc: 0.7465277777777778
+INFO:__main__:25-03-31 12:23:55    subject: 8,  trainingAcc: 1.0,   testingAcc: 0.7847222222222222
+INFO:__main__:25-03-31 12:24:32    subject: 9,  trainingAcc: 1.0,   testingAcc: 0.8263888888888888
