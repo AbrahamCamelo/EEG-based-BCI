@@ -21,7 +21,7 @@ acm_pipeline = Pipeline(
     steps = [('augmenteddataset',AugmentedDataset(order=8,lag=9)),
     ('covariances',Covariances(estimator='cov')),
     ('tangentspace',TangentSpace(metric='riemann')),
-    ('svc',SVC(C=1.0, kernel='rbf'))]
+    ('svc',SVC(C=1.0, kernel='linear'))]
 )
 
 
@@ -34,7 +34,7 @@ tmin, tmax = 0, None
 events = ['left_hand', 'right_hand']
 selected_channels = ['Fz', 'F3', 'F4' , 'F8', 'FCz', 'FC3', 'FC4', 'Cz', 'C3', 'C4', 'CP3', 'CP4', 'Pz', 'P3', 'P4','T3', 'T4']
 """Other possible channels 'T3', 'T4' and 'TP7', 'TP8' """
-logger.info(f'Channles used: {selected_channels}')
+logger.info(f'Channles used: {selected_channels}, kernel used: linear')
 
 
 dataset = Liu2024()
