@@ -1,3 +1,6 @@
+import pandas as pd
+import logging
+from sklearn.metrics import accuracy_score
 from moabb.datasets import BNCI2014_001
 from mne import events_from_annotations
 from mne import Epochs
@@ -5,8 +8,8 @@ import numpy as np
 from fbcsp import MLEngine
 
 from sklearn.model_selection import train_test_split
-from sklearn.model_selection import StratifiedKFold
-
+logger = logging.getLogger(__name__)
+logging.basicConfig(filename='data/model performance - online - bnci2014001 - both sessions.log', level = logging.DEBUG)
 
 dataset = BNCI2014_001()
 data = dataset.get_data()
@@ -27,10 +30,12 @@ def get_data_from_run(raw_run):
 X = np.zeros((48*12,22,1001), float)
 y = np.zeros((48*12,), int)
 
-res = dict()
+
 
 for subject in dataset.subject_list:
     raw_subject = data[subject]
+    res = []
+    start_index = 1
     
     ''' Since each session of a subject has 6 runs, here we join the 6 runs in a single X (total epochs = 48*6)'''
     for i, session in enumerate(raw_subject):
@@ -42,22 +47,22 @@ for subject in dataset.subject_list:
             X[run_index + session_index : run_index + 48 + session_index, :, :] = X_run
             y[run_index + session_index : run_index + 48 + session_index] = y_run
 
-    skf = StratifiedKFold(5, shuffle=True, random_state=42)
-    train_acc =[]
-    test_acc = []
-    for i, (train_index, test_index) in enumerate(skf.split(X, y)):
-        X_train, X_val = X[train_index], X[test_index]
-        y_train, y_val = y[train_index], y[test_index]
-        model = MLEngine(m_filters=2, fs = 250)
-        results = model.experiment(X_train, y_train, X_val, y_val)
-        train_acc.append(results['train_acc'])
-        test_acc.append(results['test_acc'])
+    for i in range(1,len(y)):
+        if (0 in y[:i]) & (1 in y[:i]) & (2 in y[:i]) & (3 in y[:i]):
+            X_train = np.array(X[:i])
+            y_train = np.array(y[:i])
+            X_test = np.array([X[i]])
+            y_test = np.array([y[i]])
+
+            model = MLEngine(m_filters=2, fs = 250)
+            results = model.experiment(X_train, y_train, X_test, y_test)
+
+            res.append(results['test_preds'][0])
+
+            testing_acc = accuracy_score(res,y[start_index:i+1])
+            logger.info(f"{subject},{i},{results['test_preds'][0]},{y_test[0]},{results['train_acc']},{testing_acc}")
+        else:
+            start_index += 1
+
     
-    res[subject] = (np.mean(train_acc),np.mean(test_acc))
 
-
-print('accuracy of each subject')
-print('subject, training accuracy, testing accuracy')
-for key, value in dict(sorted(res.items())).items():
-    print(f"{str(key)}, {round(value[0],3)}, {round(value[1],3)}")
- 

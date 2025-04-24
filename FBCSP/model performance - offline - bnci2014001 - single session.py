@@ -5,6 +5,7 @@ import numpy as np
 from fbcsp import MLEngine
 
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import StratifiedKFold
 
 
 dataset = BNCI2014_001()
@@ -40,10 +41,18 @@ for subject in dataset.subject_list:
             y[48*j:48*(j+1)] = y_run
 
 
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
-        model = MLEngine(m_filters=2, fs = 250)
-        results = model.experiment(X_train, y_train, X_test, y_test)
-        res[subject + (9*i)] = (results['train_acc'], results['test_acc'])
+        skf = StratifiedKFold(5, shuffle=True, random_state=42)
+        train_acc =[]
+        test_acc = []
+        for k, (train_index, test_index) in enumerate(skf.split(X, y)):
+            X_train, X_val = X[train_index], X[test_index]
+            y_train, y_val = y[train_index], y[test_index]
+            model = MLEngine(m_filters=2, fs = 250)
+            results = model.experiment(X_train, y_train, X_val, y_val)
+            train_acc.append(results['train_acc'])
+            test_acc.append(results['test_acc'])
+        
+        res[subject + (9*i)] = (np.mean(train_acc),np.mean(test_acc))
 
 
 print('accuracy of each subject')
