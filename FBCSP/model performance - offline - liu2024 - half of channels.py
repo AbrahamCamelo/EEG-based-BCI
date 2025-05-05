@@ -3,13 +3,13 @@ from mne import events_from_annotations
 from mne import Epochs
 import numpy as np
 from fbcsp import MLEngine
+from moabb.paradigms import MotorImagery
 
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import StratifiedKFold
 
 dataset = Liu2024()
 data = dataset.get_data()
-selected_channels = ['Fz', 'F3', 'F4' , 'F8', 'FCz', 'FC3', 'FC4', 'Cz', 'C3', 'C4', 'CP3', 'CP4', 'Pz', 'P3', 'P4','T3', 'T4']
 
 
 ''' Function ot obtain the raw epochs from a mne.io.Raw object '''
@@ -18,8 +18,8 @@ def get_data_from_run(raw_run):
     events, event_id = events_from_annotations(raw_run, event_id=events_id)
     epochs = Epochs(raw_run, events, event_id=event_id, tmin=0.0, tmax=4.0, preload=True, baseline=None, verbose=0)
     epochs.resample(125)
-    X = epochs.get_data(picks=selected_channels)
-    #X = X[:,np.arange(0, X.shape[1], 2), :]
+    X = epochs.get_data(picks=['eeg'])
+    X = X[:,np.arange(0, X.shape[1], 2), :]
     y = epochs.events[:,2]
 
     return X, y
