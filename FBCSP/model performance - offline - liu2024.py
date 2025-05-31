@@ -1,5 +1,6 @@
 from moabb.datasets import Liu2024
 from mne import events_from_annotations
+from moabb.paradigms import MotorImagery
 from mne import Epochs
 import numpy as np
 from fbcsp import MLEngine
@@ -9,34 +10,42 @@ from sklearn.model_selection import StratifiedKFold
 
 
 dataset = Liu2024()
-data = dataset.get_data()
 
 ''' Function ot obtain the raw epochs from a mne.io.Raw object '''
-def get_data_from_run(raw_run):
-    events_id = {'left_hand': 0, 'right_hand': 1}
-    events, event_id = events_from_annotations(raw_run, event_id=events_id)
-    epochs = Epochs(raw_run, events, event_id=event_id, tmin=0.0, tmax=4.0, preload=True, baseline=None, verbose=0)
-    X = epochs.get_data(picks=['eeg'])
-    y = epochs.events[:,2]
-
-    return X, y
+def get_data(subjects, fmin=4, fmax=40, tmin=0, tmax=None, get_info=False, resample_to=None):
+    events = ['left_hand', 'right_hand']
+    
+    dataset = Liu2024()
+    paradigm = MotorImagery(events=events, n_classes=len(events), fmin=fmin, fmax=fmax, tmin=tmin, tmax=tmax, resample=resample_to)
+    X, y, metadata = paradigm.get_data(dataset, subjects=subjects)
+    y = np.array(list(map(lambda x: events.index(x), y)))
+    if get_info:
+        sessions = dataset.get_data(subjects=subjects)
+        session_name = list(sessions.keys())[0]  # e.g., 'session_0'
+        run_name = list(sessions[session_name].keys())[0]  # e.g., 'run_0'
+        raw = sessions[session_name][run_name]
+        channel_names = raw['0'].ch_names
+        sfreq = raw['0'].info['sfreq']
+        info = {'channel_names': channel_names, 'sfreq': sfreq}
+        return X, y, info
+    else:
+        return X, y
 
 res = dict()
 
 
-for subject in data:
-    for session in data[subject]:
-        for run in data[subject][session].values():
-            X, y = get_data_from_run(run)
-
-    skf = StratifiedKFold(5, shuffle=True, random_state=42)
+for subject in range(1,51):
+    print(f"Subject {subject}:")
+    X, y, info = get_data(subjects=[subject], get_info=True, tmin=0, tmax=None, resample_to=125)
+    X = X[:,np.arange(0, X.shape[1], 2), :]
+    mle = MLEngine(m_filters=2, feature_selection=True, fs=125)
+    skf = StratifiedKFold(5, shuffle=False)
     train_acc =[]
     test_acc = []
     for i, (train_index, test_index) in enumerate(skf.split(X, y)):
         X_train, X_val = X[train_index], X[test_index]
         y_train, y_val = y[train_index], y[test_index]
-        model = MLEngine(m_filters=2, fs = 500)
-        results = model.experiment(X_train, y_train, X_val, y_val)
+        results = mle.experiment(X_train, y_train, X_val, y_val)
         train_acc.append(results['train_acc'])
         test_acc.append(results['test_acc'])
     

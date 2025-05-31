@@ -364,7 +364,8 @@ def main(subjects):
         X, y, info = get_data(subjects=[subject], get_info=True, tmin=0, tmax=None, resample_to=125)
         X = X[:,np.arange(0, X.shape[1], 2), :]
         mle = MLEngine(m_filters=2, feature_selection=True, fs=125)
-        skf = StratifiedKFold(5, shuffle=True, random_state=42)
+        skf = StratifiedKFold(5, shuffle=False)
+        
         train_acc =[]
         test_acc = []
         for i, (train_index, test_index) in enumerate(skf.split(X, y)):

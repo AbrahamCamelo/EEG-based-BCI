@@ -8,6 +8,7 @@ import logging
 from datetime import datetime
 from sklearn.metrics import accuracy_score
 import logging
+from sklearn.model_selection import train_test_split
 
 from sklearn.pipeline import Pipeline
 
@@ -20,7 +21,7 @@ acm_pipeline = Pipeline(
     steps = [('augmenteddataset',AugmentedDataset(order=8,lag=9)),
     ('covariances',Covariances(estimator='cov')),
     ('tangentspace',TangentSpace(metric='riemann')),
-    ('svc',SVC(C=1.0, kernel='rbf'))]
+    ('svc',SVC(C=1.0, kernel='linear'))]
 )
 
 
@@ -51,8 +52,7 @@ for subject in subjects:
     X_size = len(X_subject)
     training_portion = int(X_size/2)
     
-    X_subject_train, X_subject_test = X[:training_portion], X[training_portion:]
-    y_subject_train, y_subject_test = y[:training_portion], y[training_portion:]
+    X_subject_train, X_subject_test, y_subject_train, y_subject_test = train_test_split(X_subject,y_subject, shuffle=False, test_size=0.5)
  
     acm_pipeline.fit(X_subject_train, y_subject_train)
     
@@ -64,4 +64,4 @@ for subject in subjects:
     training_accuracy = accuracy_score(y_subject_train, y_predict_train)
 
     time_now = datetime.now().strftime('%y-%m-%d %H:%M:%S')
-    logger.info(f'{time_now}    subject: {subject},  trainingAcc: {training_accuracy},   testingAcc: {testing_accuracy}')
+    logger.info(f'trainingAcc: {training_accuracy},   testingAcc: {testing_accuracy}')

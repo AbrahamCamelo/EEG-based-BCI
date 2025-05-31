@@ -69,3 +69,311 @@ INFO:__main__:25-04-05 12:25:24    subject: 47,  trainingAcc: 1.0,   testingAcc:
 INFO:__main__:25-04-05 12:26:09    subject: 48,  trainingAcc: 1.0,   testingAcc: 0.494949494949495
 INFO:__main__:25-04-05 12:26:55    subject: 49,  trainingAcc: 1.0,   testingAcc: 0.494949494949495
 INFO:__main__:25-04-05 12:27:35    subject: 50,  trainingAcc: 1.0,   testingAcc: 0.494949494949495
+INFO:__main__:25-05-18 22:07:35 Import dataset
+INFO:__main__:25-05-18 22:08:28    subject: 1,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:25-05-18 22:08:36    subject: 2,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:08:46    subject: 3,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:08:53    subject: 4,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:09:01    subject: 5,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:09:11    subject: 6,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:09:21    subject: 7,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:09:30    subject: 8,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:09:39    subject: 9,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 22:09:49    subject: 10,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:09:57    subject: 11,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:10:05    subject: 12,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:10:15    subject: 13,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:10:25    subject: 14,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:10:33    subject: 15,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:10:43    subject: 16,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:10:53    subject: 17,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:11:03    subject: 18,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:11:13    subject: 19,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:11:23    subject: 20,  trainingAcc: 0.95,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:11:32    subject: 21,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:11:41    subject: 22,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:11:51    subject: 23,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:12:01    subject: 24,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:12:10    subject: 25,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:12:21    subject: 26,  trainingAcc: 1.0,   testingAcc: 0.3
+INFO:__main__:25-05-18 22:12:32    subject: 27,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:12:41    subject: 28,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:12:51    subject: 29,  trainingAcc: 0.95,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:13:01    subject: 30,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:13:12    subject: 31,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:25-05-18 22:13:20    subject: 32,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:25-05-18 22:13:31    subject: 33,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:13:40    subject: 34,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:13:51    subject: 35,  trainingAcc: 1.0,   testingAcc: 0.3
+INFO:__main__:25-05-18 22:14:02    subject: 36,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:14:13    subject: 37,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:14:22    subject: 38,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:25-05-18 22:14:32    subject: 39,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:14:43    subject: 40,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:14:52    subject: 41,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:25-05-18 22:15:02    subject: 42,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:15:12    subject: 43,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:25-05-18 22:15:22    subject: 44,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:25-05-18 22:15:30    subject: 45,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:15:39    subject: 46,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:25-05-18 22:15:49    subject: 47,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:15:59    subject: 48,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:16:09    subject: 49,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:25-05-18 22:16:19    subject: 50,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:24:49 Import dataset
+INFO:__main__:25-05-18 22:26:27    subject: 1,  trainingAcc: 1.0,   testingAcc: 0.475
+INFO:__main__:25-05-18 22:27:13    subject: 2,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 22:28:24    subject: 3,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:29:11    subject: 4,  trainingAcc: 1.0,   testingAcc: 0.475
+INFO:__main__:25-05-18 22:29:59    subject: 5,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:31:13    subject: 6,  trainingAcc: 1.0,   testingAcc: 0.475
+INFO:__main__:25-05-18 22:32:27    subject: 7,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 22:33:36    subject: 8,  trainingAcc: 1.0,   testingAcc: 0.525
+INFO:__main__:25-05-18 22:34:28    subject: 9,  trainingAcc: 1.0,   testingAcc: 0.475
+INFO:__main__:25-05-18 22:35:30    subject: 10,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 22:36:24    subject: 11,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 22:37:19    subject: 12,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 22:38:34    subject: 13,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:39:28    subject: 14,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 22:40:21    subject: 15,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 22:41:25    subject: 16,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 22:42:25    subject: 17,  trainingAcc: 1.0,   testingAcc: 0.475
+INFO:__main__:25-05-18 22:43:19    subject: 18,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 22:44:29    subject: 19,  trainingAcc: 1.0,   testingAcc: 0.475
+INFO:__main__:25-05-18 22:45:27    subject: 20,  trainingAcc: 0.98125,   testingAcc: 0.65
+INFO:__main__:25-05-18 22:46:27    subject: 21,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 22:47:19    subject: 22,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 22:48:29    subject: 23,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 22:49:41    subject: 24,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:50:43    subject: 25,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 22:51:38    subject: 26,  trainingAcc: 1.0,   testingAcc: 0.3
+INFO:__main__:25-05-18 22:52:48    subject: 27,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 22:53:42    subject: 28,  trainingAcc: 1.0,   testingAcc: 0.325
+INFO:__main__:25-05-18 22:54:54    subject: 29,  trainingAcc: 0.95625,   testingAcc: 0.5
+INFO:__main__:25-05-18 22:55:49    subject: 30,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 22:56:55    subject: 31,  trainingAcc: 1.0,   testingAcc: 0.375
+INFO:__main__:25-05-18 22:57:44    subject: 32,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:25-05-18 22:58:48    subject: 33,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 22:59:49    subject: 34,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 23:00:58    subject: 35,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:25-05-18 23:02:06    subject: 36,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:25-05-18 23:03:18    subject: 37,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 23:04:10    subject: 38,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 23:05:04    subject: 39,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:25-05-18 23:06:15    subject: 40,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 23:07:05    subject: 41,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 23:08:09    subject: 42,  trainingAcc: 1.0,   testingAcc: 0.375
+INFO:__main__:25-05-18 23:09:16    subject: 43,  trainingAcc: 1.0,   testingAcc: 0.425
+INFO:__main__:25-05-18 23:10:18    subject: 44,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:25-05-18 23:11:11    subject: 45,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-18 23:12:23    subject: 46,  trainingAcc: 1.0,   testingAcc: 0.475
+INFO:__main__:25-05-18 23:13:16    subject: 47,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 23:14:08    subject: 48,  trainingAcc: 1.0,   testingAcc: 0.475
+INFO:__main__:25-05-18 23:15:01    subject: 49,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:25-05-18 23:16:07    subject: 50,  trainingAcc: 1.0,   testingAcc: 0.375
+INFO:__main__:25-05-19 10:05:35 Import dataset
+INFO:__main__:subject: 1,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:subject: 2,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:subject: 3,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:subject: 4,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:subject: 5,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:subject: 6,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:subject: 7,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:subject: 8,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:subject: 9,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:subject: 10,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 11,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:subject: 12,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 13,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 14,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 15,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:subject: 16,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:subject: 17,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:subject: 18,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:subject: 19,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:subject: 20,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 21,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:subject: 22,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:subject: 23,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:subject: 24,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 25,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:subject: 26,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:subject: 27,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:subject: 28,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:subject: 29,  trainingAcc: 0.95,   testingAcc: 0.5
+INFO:__main__:subject: 30,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 31,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 32,  trainingAcc: 1.0,   testingAcc: 0.7
+INFO:__main__:subject: 33,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:subject: 34,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:subject: 35,  trainingAcc: 1.0,   testingAcc: 0.3
+INFO:__main__:subject: 36,  trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:subject: 37,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 38,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:subject: 39,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:subject: 40,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 41,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:subject: 42,  trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:subject: 43,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:subject: 44,  trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:subject: 45,  trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:subject: 46,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:subject: 47,  trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:subject: 48,  trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:subject: 49,  trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:subject: 50,  trainingAcc: 1.0,   testingAcc: 0.4
+order=8,lag=9
+INFO:__main__:25-05-19 10:46:20 Import dataset
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.7
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.3
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.7
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 0.95,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+order=4,lag=3
+INFO:__main__:25-05-30 21:50:36 Import dataset
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.75
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.75
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 0.95,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 0.95,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.3
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:25-05-30 23:05:18 Import dataset
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.75
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.75
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 0.95,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 0.95,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.3
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4

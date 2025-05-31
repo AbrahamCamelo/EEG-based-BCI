@@ -53,11 +53,11 @@ for subject in dataset.subject_list:
         train_acc.append(results['train_acc'])
         test_acc.append(results['test_acc'])
     
-    res[subject] = (np.mean(train_acc),np.mean(test_acc))
+    res[subject] = (np.mean(train_acc),np.mean(test_acc), np.std(test_acc))
 
 
 print('accuracy of each subject')
 print('subject, training accuracy, testing accuracy')
 for key, value in dict(sorted(res.items())).items():
-    print(f"{str(key)}, {round(value[0],3)}, {round(value[1],3)}")
+    print(f"{str(key)}, {round(value[0],3)}, {round(value[1],3)}, {round(value[2],3)}")
  

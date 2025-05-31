@@ -154,3 +154,55 @@ INFO:__main__:25-04-05 11:38:26    subject: 47,  trainingAcc: 1.0,   testingAcc:
 INFO:__main__:25-04-05 11:38:41    subject: 48,  trainingAcc: 1.0,   testingAcc: 0.48787878787878786
 INFO:__main__:25-04-05 11:38:56    subject: 49,  trainingAcc: 1.0,   testingAcc: 0.48787878787878786
 INFO:__main__:25-04-05 11:39:11    subject: 50,  trainingAcc: 1.0,   testingAcc: 0.48787878787878786
+INFO:__main__:25-05-19 10:41:55 Import dataset
+INFO:__main__:Channles used: ['Fz', 'F3', 'F4', 'F8', 'FCz', 'FC3', 'FC4', 'Cz', 'C3', 'C4', 'CP3', 'CP4', 'Pz', 'P3', 'P4']
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 0.95,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.4
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.35
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.45
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.65
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.6
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.5
+INFO:__main__:trainingAcc: 1.0,   testingAcc: 0.55
