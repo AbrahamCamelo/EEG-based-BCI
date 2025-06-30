@@ -365,19 +365,17 @@ def main(subjects):
         X = X[:,np.arange(0, X.shape[1], 2), :]
         mle = MLEngine(m_filters=2, feature_selection=True, fs=125)
         skf = StratifiedKFold(5, shuffle=False)
-        
+
         train_acc =[]
         test_acc = []
         for i, (train_index, test_index) in enumerate(skf.split(X, y)):
             x_train, x_test = X[train_index], X[test_index]
             y_train, y_test = y[train_index], y[test_index]
-        #x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.5,  stratify=None, shuffle=False)
             out = mle.experiment(x_train, y_train, x_test, y_test)
             train_acc.append(out['train_acc'])
             test_acc.append(out['test_acc'])
         
         res[subject] = (np.mean(train_acc),np.mean(test_acc))
-        #res[subject] = (out['train_acc'], out['test_acc'])
     print("Subject, train_acc, test_acc")
     for entry in res:
         print(f"{entry}: {res[entry][0]}, {res[entry][1]}")
